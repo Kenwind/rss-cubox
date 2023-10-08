@@ -1,6 +1,12 @@
 name: Send a HTTP Request when new RSS item is detected
 on:
-  rss: http://feeds.feedburner.com/collabfund
+  rss: 
+    url: 
+      - http://feeds.feedburner.com/collabfund
+      - https://moretothat.com/feed/
+      - https://ofdollarsanddata.com/feed/
+      - http://www.aaronsw.com/2002/feeds/pgessays.rss
+      - https://waitbutwhy.com/feed
     
 jobs:
   request:
