@@ -7,7 +7,6 @@ on:
       - https://ofdollarsanddata.com/feed/
       - http://www.aaronsw.com/2002/feeds/pgessays.rss
       - https://waitbutwhy.com/feed
-      - https://rss.smallmaple.com/rss/user/3762961402
     
 jobs:
   request:
